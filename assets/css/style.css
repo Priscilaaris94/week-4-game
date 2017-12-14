@@ -1,0 +1,34 @@
+
+body {
+    background-image: url("https://pre00.deviantart.net/731d/th/pre/i/2013/188/1/0/otherworld___crystal_cave_by_firedudewraith-d6chey7.jpg");
+}
+
+.crystals{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.crystal{
+    border:1px solid blue;
+    height: 200px;
+   width: 200px;
+   box-shadow: 7px 7px 7px rgba(0,0,0,0,5);
+}
+
+.crystal:hover{
+    transform: translate(15px, 5px);
+    box-shadow: 20px 20px 20px rgba(0,0,0,0,5);
+}
+
+img{
+   width:50px; 
+}
+
+#result, #win, #lost, #previous{
+    font-size: 50px;
+    color:white;
+    text-align: center;
+}
+
+
+
